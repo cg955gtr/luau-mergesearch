@@ -18,8 +18,6 @@ local function MergeSort(Table: { number }): { number }
 		table.insert(Right, Table[i])
 	end
 
-	local MergeSort = Service.MergeSort
-
 	Left = MergeSort(Left)
 	Right = MergeSort(Right)
 	
